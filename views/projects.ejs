@@ -1,0 +1,50 @@
+<%- include('partials/header') %>
+<%- include('partials/navbar') %>
+
+<!-- Title and Subtitle -->
+<section class="text-center py-5">
+    <h1>My Projects</h1>
+    <p>Exploring the horizons of technology, one project at a time.</p>
+</section>
+
+<!-- Filtering Options (can be implemented in the future) -->
+<!-- <section>
+    <div class="container">
+        <ul>
+            <li>Web Development</li>
+            <li>Machine Learning</li>
+            <li>Mobile Apps</li>
+        </ul>
+    </div>
+</section> -->
+
+<!-- Project Cards/Listings -->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-md-4">
+                <div class="project-card">
+                    <img src="/images/projectA.jpg" alt="Project 1 Thumbnail" class="img-fluid">
+                    <h3>Project Title 1</h3>
+                    <p>A short description about the project...</p>
+                    <ul class="tech-icons">
+                        <li><i class="fab fa-js"></i></li>
+                        <li><i class="fab fa-html5"></i></li>
+                    </ul>
+                    <a href="#" class="btn btn-info btn-sm">Live Project</a>
+                    <a href="https://github.com/yourusername/project1" target="_blank" class="btn btn-dark btn-sm">GitHub</a>
+                </div>
+            </div>
+            <!-- ... Repeat similar blocks for other projects ... -->
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action (CTA) -->
+<section class="text-center py-5 bg-light">
+    <p>Interested in collaborating on a project? Let's chat!</p>
+    <a href="/contact" class="btn btn-primary">Contact Me</a>
+</section>
+
+<%- include('partials/footer') %>

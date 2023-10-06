@@ -1,0 +1,49 @@
+<%- include('partials/header') %>
+<%- include('partials/navbar') %>
+
+<!-- Profile Section -->
+<section class="text-center py-5 ">
+    <img src="/public/images/profile-picture.jpg" alt="Profile Picture" class="rounded-circle" style="width:150px;">
+    <h1>Jane Doe - Aspiring Software Engineer</h1>
+    <a href="/contact" class="btn btn-primary mt-2">Contact Me</a>
+</section>
+
+<!-- Hero Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <p>Computer Science student at XYZ University with a passion for web development.</p>
+        <a href="/projects" class="btn btn-secondary">View My Projects</a>
+    </div>
+</section>
+
+<!-- Featured Projects Section -->
+<section class="py-5">
+    <div class="container">
+        <h2>Featured Projects</h2>
+        <div class="row">
+            <!-- Repeat this block for each project -->
+            <div class="col-md-4">
+                <a href="https://github.com/yourusername/projectname" target="_blank">
+                    <img src="/images/projectA.jpg" alt="Project 1" class="img-fluid">
+                    <h3>Project Name</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Overview Section -->
+<section class="bg-light py-5">
+    <div class="container">
+        <h2>Skills Overview</h2>
+        <div class="row">
+            <!-- Repeat this block for each tech stack/skill -->
+            <div class="col-md-3 text-center">
+                <i class="fab fa-python fa-3x"></i> <!-- Example icon for Python from Font Awesome -->
+                <p>Python</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<%- include('partials/footer') %>

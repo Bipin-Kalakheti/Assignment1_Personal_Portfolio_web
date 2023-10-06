@@ -1,0 +1,43 @@
+<!-- File: views/services.ejs -->
+
+<%- include('partials/header') %>
+<%- include('partials/navbar') %>
+
+<!-- Header Section -->
+<section class="text-center py-5 bg-light">
+    <h1>Services I Offer</h1>
+    <p>Tailored software solutions to elevate your business.</p>
+</section>
+
+<!-- Service Listings Section -->
+<section class="py-5">
+    <div class="container">
+        <!-- Sample Service Card; Repeat for other services -->
+        <div class="card mb-4">
+            <img src="/public/images/service-icon.jpg" alt="Service Image" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text">Build robust and scalable web applications tailored for your business needs.</p>
+                <ul>
+                    <li>Responsive Design</li>
+                    <li>Optimized for Performance</li>
+                    <li>Maintainable Codebase</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Link -->
+<div class="text-center py-5">
+    <a href="/projects" class="btn btn-primary">View My Projects</a>
+</div>
+
+<!-- Call to Action -->
+<section class="text-center py-5 bg-light">
+    <h2>Ready to start your project?</h2>
+    <p>Contact me today!</p>
+    <a href="/contact" class="btn btn-secondary">Get in Touch</a>
+</section>
+
+<%- include('partials/footer') %>
