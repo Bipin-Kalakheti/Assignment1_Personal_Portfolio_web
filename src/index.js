@@ -2,10 +2,10 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-app.use(express.static('public')); // Serve static files
+app.use(express.static('public')); 
 app.use(express.static(__dirname + '/public'));
 app.use(express.urlencoded({ extended: true }));
-app.set('view engine', 'ejs'); // Set EJS as the view engine
+app.set('view engine', 'ejs'); 
 
 // Routes
 app.get('/', (req, res) => {
@@ -33,9 +33,9 @@ app.get('/contact', (req, res) => {
 });
 
 app.post('/contact-submit', (req, res) => {
-    // TODO: Store or email form submission
-    console.log(req.body); // For demonstration purposes, log the submitted form data to the console
-    res.redirect('/'); // Redirect to home page
+    
+    console.log(req.body); 
+    res.redirect('/'); 
 });
 
 app.listen(port, () => {
