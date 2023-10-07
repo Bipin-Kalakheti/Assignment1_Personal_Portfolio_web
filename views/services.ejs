@@ -1,4 +1,4 @@
-<!-- File: views/services.ejs -->
+
 
 <%- include('partials/header') %>
 <%- include('partials/navbar') %>
@@ -12,12 +12,12 @@
 <!-- Service Listings Section -->
 <section class="py-5">
     <div class="container">
-        <!-- Sample Service Card; Repeat for other services -->
+        
         <div class="card mb-4">
-            <img src="/public/images/service-icon.jpg" alt="Service Image" class="card-img-top">
+            <img src="/images/web-icon.jpg" alt="Service Image" class="card-img-top col-md-6">
             <div class="card-body">
                 <h5 class="card-title">Web Development</h5>
-                <p class="card-text">Build robust and scalable web applications tailored for your business needs.</p>
+                <p class="card-text">Crafting responsive and scalable web applications tailored to your business needs. Specializing in frontend and backend development.</p>
                 <ul>
                     <li>Responsive Design</li>
                     <li>Optimized for Performance</li>
@@ -25,10 +25,36 @@
                 </ul>
             </div>
         </div>
+        <div class="card mb-4">
+            <img src="/images/mobile-app-icon.jpg" alt="Mobile App Image" class="card-img-top  col-md-6">
+            <div class="card-body">
+                <h5 class="card-title">Mobile App Development</h5>
+                <p class="card-text">Designing and building mobile applications for both Android and iOS platforms. Focused on creating intuitive and user-friendly interfaces.</p>
+                <ul>
+                    <li>Cross-Platform Compatibility</li>
+                    <li>Seamless User Experience</li>
+                    <li>Regular Updates & Maintenance</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mb-4">
+            <img src="/images/database-icon.jpg" alt="Database Service Image" class="card-img-top  col-md-6">
+            <div class="card-body">
+                <h5 class="card-title">Database Management</h5>
+                <p class="card-text">Ensuring your data is stored securely and efficiently. Specializing in both relational and non-relational databases.</p>
+                <ul>
+                    <li>Database Design</li>
+                    <li>Optimization & Scaling</li>
+                    <li>Security & Backup</li>
+                </ul>
+            </div>
+        </div>
+        
+        
     </div>
 </section>
 
-<!-- Portfolio Link -->
+<!-- Projects Link -->
 <div class="text-center py-5">
     <a href="/projects" class="btn btn-primary">View My Projects</a>
 </div>
